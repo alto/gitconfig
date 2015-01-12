@@ -14,3 +14,13 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# ignore my personal files
+_ignore
+
+# ignore files with personal settings
+.ruby-gemset
+
+# ignore app configuration files
+config/database.yml
+config/secrets.yml
